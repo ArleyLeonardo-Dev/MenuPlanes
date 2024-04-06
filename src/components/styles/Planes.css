@@ -1,0 +1,77 @@
+:root {
+    --bordes--: 15px;
+}
+
+.Planes {
+    text-align: left;
+    width: 80%;
+    background-color: #393939;
+    border-radius: var(--bordes--);
+    margin: 2rem 10%;
+    padding: 0px;
+    color: white;
+    transition: 1s;
+}
+
+.HeadPlan {
+    border-top-left-radius: var(--bordes--);
+    border-top-right-radius: var(--bordes--);
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    height: 3rem;
+    color: black;
+}
+
+.ContentPlan {
+    padding: 0.5rem 1rem
+}
+
+.ContentPlan h2 {
+    border-bottom: 2px solid;
+    margin-bottom: 0px;
+    padding-bottom: 1.5rem;
+}
+
+.ContentPlan ul {
+    padding: 0.5rem 1rem;
+}
+
+
+.Link {
+    display: inline-block;  
+    width: 100%;
+    padding: 2.5% 0px;
+    border-radius: 3.14rem;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+}
+.ContentPlan h6{
+    color: gray;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width:600px) {
+    .Planes{
+        width: 25rem;
+        margin: 0px 2% 5% 2%;
+    }
+    .Contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width:1600px){
+    .Planes{
+        margin: 0px;
+    }
+}
+
